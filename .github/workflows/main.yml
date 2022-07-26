@@ -78,7 +78,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        sript: |
+        script: |
           # Выполняет pull образа с DockerHub
           sudo docker pull imbaspirit/workflow
           #остановка всех контейнеров
